@@ -1,7 +1,8 @@
 # NW Reflections
 
 A static website for the granite company _"NW Reflections"_
----
+
+-----------------------------------------------------------
 
 I will be using this website to expand my knowledge of the Go programming language and CouchBase database.
 
