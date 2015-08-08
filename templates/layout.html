@@ -4,87 +4,88 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Welcome to NW Reflections</title>
-    <!-- <link rel="stylesheet" href="main.css"> -->
+    <link rel="stylesheet" href="../public/style/main.css">
 </head>
 <body>
     <div id="wrapper" class="wrapper">
         <header id="header" class="header">
             <div class"header__logo">
-                LOGO HERE
-                <h1>NW Reflections</h1><!-- Not sure if we want the company name too -->
+                <img src="../public/img/nw-reflections-logo.svg" alt="NW Reflections">
+                <!-- <h1>NW Reflections</h1> -->
             </div>
             
             <nav class="header__nav">
                 <ul>
-                    <li><a href="#" title="Home">Home</a></li>
+                    <li><a href="#" title="Services">Services</a></li>
                     <li><a href="#" title="Edge Details">Edge Details</a></li>
                     <li><a href="#" title="Product Care">Product Care</a></li>
                     <li><a href="#" title="Photos">Photos</a></li>
-                    <li><a href="#" title="About Us">About Us</a></li>
-                    <li><a href="#" title="Contact">Contact</a></li>
                 </ul>
             </nav>
         </header><!-- /header -->
 
-        <main id="main" class="main">
-            <section id="main__content" class="main__content">
-                <section id="main__" class="main__">
-                    <div>
-                        <h2>The best craftsmanship in the industry</h2>
-                        <p>We provide natural, and engineered, stones with the best quality fabrication and installation using the latest technology; <em>backed by centuries old techniques.</em><br>We'll help you choose the stone, edge detail, and finish that best suit your project and taste.</p>
-                    </div>
-                    <form method="POST" accept-charset="utf-8">
-                        <h3>Setup an appointment</h3>
+        <div class="content">
+            <main id="main" class="main">
+                <section id="main__content" class="main__content">
+                    <section id="main__action" class="main__action">
                         <div>
-                            <label for="fullname">Full Name</label>
-                            <input type="text" id="fullname" name="fullname" value="" placeholder="Full Name">
+                            <h2>The best craftsmanship in the industry</h2>
+                            <p>We provide natural, and engineered, stones with the best quality fabrication and installation using the latest technology;<br><em>backed by centuries old techniques.</em></p>
+                            <p>We'll help you choose the stone, edge detail, and finish that best suit your project and taste.</p>
                         </div>
-                        <div>
-                            <label for="phone">Phone</label>
-                            <input type="tel" id="phone" name="phone" value="" placeholder="Phone">
-                        </div>
-                        <div>
-                            <label for="email">Email</label>
-                            <input type="email" id="email" name="email" value="" placeholder="Email">
-                        </div>
-                        <div>
-                            <label for="comments">Comments</label>
-                            <textarea id="comments" name="comments"></textarea>
-                        </div>
-                    </form>
-                </section>
-                <section>
-                    <h2>What We Do</h2>
-                    <ul>
-                        <li>
-                            <h3>Fabrication</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat.</p>
-                        </li>
-                        <li>
-                            <h3>Installation</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat.</p>
-                        </li>
-                        <li>
-                            <h3>Consultation</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat.</p>
-                        </li>
-                    </ul>
-                </section>
-            </section><!-- /main__content -->
-        </main><!-- /main -->
+                        <form method="POST" accept-charset="utf-8">
+                            <h3>Setup an appointment</h3>
+                            <div>
+                                <label for="fullname">Full Name</label>
+                                <input type="text" id="fullname" name="fullname" value="" placeholder="Full Name">
+                            </div>
+                            <div>
+                                <label for="phone">Phone</label>
+                                <input type="tel" id="phone" name="phone" value="" placeholder="Phone">
+                            </div>
+                            <div>
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" value="" placeholder="Email">
+                            </div>
+                            <div>
+                                <label for="comments">Comments</label>
+                                <textarea id="comments" name="comments" cols="50" rows="10"></textarea>
+                            </div>
+                        </form>
+                    </section><!-- /main__action -->
+                    <section id="main__desc" class="main__desc">
+                        <h2>What We Do</h2>
+                        <ul>
+                            <li class="one">
+                                <h3>Fabrication</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat.</p>
+                            </li>
+                            <li class="two">
+                                <h3>Installation</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat.</p>
+                            </li>
+                            <li class="three">
+                                <h3>Consultation</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat.</p>
+                            </li>
+                        </ul>
+                    </section><!-- /main__desc -->
+                </section><!-- /main__content -->
+            </main><!-- /main -->
 
-        <footer id="footer" class="footer">
-            <span>&copy; 2015 <strong>NW Reflections</strong></span>
-        </footer><!-- /footer -->
+            <footer id="footer" class="footer">
+                <span>&copy; 2015 <strong>NW Reflections</strong></span>
+            </footer><!-- /footer -->
+        </div>
     </div><!-- /wrapper -->
 </body>
 </html>

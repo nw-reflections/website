@@ -1,0 +1,196 @@
+html, body {
+    color: #4C4C4C;
+    font-size: 0.9rem;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+ background: #E8F5E9;
+}
+
+
+/*******************************************************************
+LAYOUT
+*******************************************************************/
+header {
+
+}
+
+main {
+
+}
+
+footer {
+
+}
+
+div {
+
+}
+
+nav {
+
+}
+
+.wrapper {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    background: #FFF;
+    box-shadow: 0 0 8px -3px #000;
+}
+
+.header__logo {
+
+}
+
+.header__nav {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.header__nav a {
+    display: block;
+    padding: 1rem 1rem 0.5rem 1rem;
+    color: #4C4C4C;
+    font-size: 1.55rem;
+    font-weight: bolder;
+    text-decoration: none;
+    font-variant: small-caps;
+}
+
+.header__nav a:hover {
+    color: #21B04A;
+}
+
+.header__nav ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    list-style: none;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+
+.header__nav li {
+    font-size: 1.4rem;
+    margin: 0 0.3rem;
+    border-bottom: 0.2rem solid #FFF;
+}
+
+.header__nav li:hover {
+    border-bottom: 0.2rem solid #21B04A;
+}
+
+/*Place in Media query for larger screens*/
+.content {
+    margin: auto;
+    max-width: 85rem;
+    background: #FFF;
+    box-shadow: 0 0 8px -3px #000;
+}
+
+.main__content {
+    font-size: 1.3rem;
+    display: flex;
+    flex-flow: column nowrap;
+    /*padding: 1rem;*/
+}
+
+.main__action {
+    padding: 6rem 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background: #78909C;
+    color: #FFF;
+}
+
+.main__action div {
+    max-width: 28rem;
+}
+
+.main__action div em {
+    font-variant: small-caps;
+    margin-bottom: 1rem;
+}
+
+.main__action div em::before {
+    /*content: "<br>";*/
+}
+
+.main__action form {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.main__action form div {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+.main__action label {
+    text-align: right;
+    margin-right: 1.2rem;
+}
+
+.main__action input {
+    width: 20.35rem;
+}
+
+.main__action input,
+.main__action textarea {
+    font-size: 1.4rem;
+}
+
+.main__desc ul {
+    color: #FFF;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.main__desc li {
+    padding: 1rem 1.5rem;
+    width: 20rem;
+    min-width: 20rem;
+}
+
+.main__desc h2 {
+    padding: 1rem 0;
+}
+
+.main__desc h2,
+.main__desc li h3 {
+    font-variant: small-caps;
+    text-align: center;
+    margin: 0;
+}
+
+.main__desc .one {
+    background: #EF6C00;
+}
+
+.main__desc .two {
+    background: #2196F3;
+}
+
+.main__desc .three {
+    background: #4CAF50;
+}
+
+.footer {
+    padding: 1.5rem 0;
+    text-align: center;
+}
